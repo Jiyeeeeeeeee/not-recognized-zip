@@ -1,8 +1,21 @@
+.kode-mono-regular {
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;   /* Regular */
+    font-style: normal;
+}  
+
 body{
     background-color: rgb(30, 255, 221);
     margin:10px 20px;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     line-height: 1.3rem;
+    font-family: "Kode Mono", "Noto Sans KR", monospace, sans-serif;
+}
+
+:lang(en){
+    font-family: "Kode Mono", monospace;
+    font-size: 0.9rem;           /* ← 영어만 살짝 축소(예: 92%) */
 }
 
 .content-1, 
@@ -14,7 +27,7 @@ body{
     display: flex;        /* 가로 배치 */
     gap: 10px;            /* 요소 사이 간격 */
     align-items: flex-start; /* 위쪽 정렬 (필요시) */
-  }
+}
 
 .content-1 {
     border-right: 1px dotted rgb(0, 0, 0);
