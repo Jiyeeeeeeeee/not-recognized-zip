@@ -3,14 +3,26 @@ body{
     margin:10px 20px;
 }
 
+.content-1, 
+.content-2 {
+  flex: 1;   /* 둘 다 동일 비율 차지 */
+}
+
+.main {
+    display: flex;        /* 가로 배치 */
+    gap: 10px;            /* 요소 사이 간격 */
+    align-items: flex-start; /* 위쪽 정렬 (필요시) */
+  }
+
+.content-1 {
+    border-right: 1px dotted rgb(0, 0, 0);
+    height: 100vh;  /* 전체 높이 */
+    padding-right: 10px;
+}
 .header {
     border-bottom: 1px dotted rgb(0, 0, 0); 
 }
 
-.rule{
-    border-bottom: 1px dotted rgb(0, 0, 0);
-}
-
-.main{
+.content-2{
     border-bottom: 1px dotted rgb(0, 0, 0); 
 }
