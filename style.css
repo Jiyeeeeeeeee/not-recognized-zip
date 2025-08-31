@@ -1,6 +1,8 @@
 body{
     background-color: rgb(30, 255, 221);
     margin:10px 20px;
+    font-size: 0.95rem;
+    line-height: 1.3rem;
 }
 
 .content-1, 
