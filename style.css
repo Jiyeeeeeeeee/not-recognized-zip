@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(255, 70, 104);
+    margin:10px 20px;
+}
+
+.header {
+    border-bottom: 1px dotted rgb(0, 0, 0); 
+}
+
+.rule{
+    border-bottom: 1px dotted rgb(0, 0, 0);
+}
+
+.main{
+    border-bottom: 1px dotted rgb(0, 0, 0); 
+}
