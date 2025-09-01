@@ -7,7 +7,7 @@
 
 body{
     background-color: rgb(30, 255, 221);
-    margin:10px 20px;
+    padding:1rem;
     font-size: 0.9rem;
     line-height: 1.3rem;
     font-family: "Kode Mono", "Noto Sans KR", monospace, sans-serif;
@@ -18,26 +18,29 @@ body{
     font-size: 0.9rem;           /* ← 영어만 살짝 축소(예: 92%) */
 }
 
-.content-1, 
-.content-2 {
+#main {
+    display: flex;        /* 가로 배치 */
+    gap: 10px;            /* 요소 사이 간격 */
+    flex-direction: row;
+}
+
+.section-1, 
+.section-2 {
   flex: 1;   /* 둘 다 동일 비율 차지 */
 }
 
-.main {
-    display: flex;        /* 가로 배치 */
-    gap: 10px;            /* 요소 사이 간격 */
-    align-items: flex-start; /* 위쪽 정렬 (필요시) */
-}
-
-.content-1 {
+.section-1 {
     border-right: 1px dotted rgb(0, 0, 0);
     height: 100vh;  /* 전체 높이 */
     padding-right: 10px;
+
 }
 .header {
     border-bottom: 1px dotted rgb(0, 0, 0); 
+    margin-bottom: 10px;
 }
 
-.content-2{
+
+.section-2{
     border-bottom: 1px dotted rgb(0, 0, 0); 
 }
