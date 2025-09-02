@@ -44,3 +44,13 @@ body{
 .section-2{
     border-bottom: 1px dotted rgb(0, 0, 0); 
 }
+
+.container{
+     width: 100%;
+    height: auto;
+}
+
+.content {
+    width:100%;
+    height:auto;
+}
