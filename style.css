@@ -1,6 +1,6 @@
 body{
     background-color: #ffffff;
-    padding:1rem;
+    padding:10rem;
     font-size: 0.9rem;
     line-height: 1.3rem;
 }
@@ -9,22 +9,10 @@ body{
     font-size: 0.9rem;           /* ← 영어만 살짝 축소(예: 92%) */
 }
 
-#main {
-    display: flex;        /* 가로 배치 */
-    gap: 10px;            /* 요소 사이 간격 */
-    flex-direction: row;
-}
-
 .section-1 {
     height: 100vh;  /* 전체 높이 */
-    padding-right: 10px;
 
 }
-.header {
-    border-bottom: 1px dotted rgb(0, 0, 0); 
-    margin-bottom: 10px;
-}
-
 .container{
      width: 100%;
     height: auto;
@@ -37,4 +25,17 @@ table, td {
 
 td {
   padding: 5px; /* 셀 안쪽 여백 */
+}
+
+.resized-img {
+  width: 50%; /* 원하는 너비로 조정 */
+  height: auto; /* 높이는 자동으로 비율 유지 */
+}   
+
+.auto-table {
+  table-layout: auto;
+}
+
+.auto-table td{
+      vertical-align: top;
 }
